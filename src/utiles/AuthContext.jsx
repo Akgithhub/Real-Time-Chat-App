@@ -64,6 +64,7 @@ export const AuthProvider = ({ children }) => {
       console.log("Account Details: ", accountDetails);
       setUser(accountDetails);
       navigate("/");
+      console.log(res);
     } catch (error) {
       console.error(error);
     }
